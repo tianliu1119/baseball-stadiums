@@ -1,0 +1,26 @@
+Feature: View the map of all the stadiums in the country
+
+As a user, I will be able to see the map of all of the stadiums in the country and the path traveled between any number of stadiums if necessary.
+
+Acceptance Criteria:
+
+- The user will be able to see the map displayed in the middle of the window at all times.
+- The user will be shown the path traveled if they are planning a trip or calculating the distance between two stadiums. The path will be highlighted as well as the stadiums visited.
+- The user will be able to click on any stadium displayed on the map.
+
+Definition of Done:
+
+- The map reacts to whatever actions the user performs such as planning a trip or calculating the shortest distance between two stadiums.
+- If the user clicks on a stadium on the map, a list of possible actions will be displayed that will allow the administrator to modify the stadium’s information.
+
+Tasks:
+
+- Implement the GUI for this functionality.
+- Implement the GUI function(s) (MainWindow function) to display/highlight the shortest path from the origin to the destination on the map.
+- Implement the GUI function(s) to allow the user to click on any random baseball stadium and make the GUI display a list of possible actions in the form of push buttons to allow the user to make changes to the stadium.
+
+Tests:
+
+- The distances and paths calculated should be the shortest possible.
+
+Story Points: 5

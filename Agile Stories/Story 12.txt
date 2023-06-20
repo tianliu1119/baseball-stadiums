@@ -1,0 +1,28 @@
+Feature (general GUI): View all possible actions on the same window as the map/Administrator login
+
+As a user, I will be able to see all the possible functionalities of the program on the same window as the map that is displayed. I will also be able to access administrator privileges by logging in.
+
+Acceptance Criteria:
+
+- The user will be able to see the map displayed in the middle of the window at all times.
+- The user will be able to see all the different functionalities of the program surrounding the map.
+- The user will be able to log in as administrator.
+
+Definition of Done:
+
+- All of the program’s features will be put into group boxes that literally surround the map that is displayed in the middle of the main window.
+- Some group boxes will only have a push button to activate that particular feature. Other group boxes will allow users to directly access the feature within that particular group box.
+- There will be a push button the user can click to allow the user to log in as administrator. There will be a field allowing the user to enter a password. If the password is correct, the user will have access to administrator-only features.
+
+Tasks:
+
+- Design the layout and placement of the group boxes surrounding the map.
+- Make group boxes checkable if necessary.
+- Implement administrator login GUI functions.
+
+Tests:
+
+- Administrator privileges should only be granted if the correct password is entered.
+- The GUI should run bug-free.
+
+Story Points: 2

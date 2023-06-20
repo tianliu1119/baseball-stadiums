@@ -1,0 +1,18 @@
+Feature: Stadium Modify
+
+As a administrator I want to be able to change a stadium's information.
+
+Acceptance Criteria:
+
+- Stadium Modify should be able to allow the administrator to choose a stadium to modify.
+- Stadium Modify should allow the administrator to modify whatever information he/she wants regarding the stadium.
+- Administrator should be able to edit a team’s name if there is a new team at that location.
+
+Task:
+
+- Implement a Stadium mutator functions (to edit teams names)
+- Implement Stadium Modify GUI
+
+Test:
+
+- Check to see if a stadium's information has been modified by clicking on the stadium on the map and looking at the stadium info table to confirm that any changes have taken effect.

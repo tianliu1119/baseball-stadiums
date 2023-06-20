@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Stadium_Reports</class>
+ <widget class="QDialog" name="Stadium_Reports">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>758</width>
+    <height>352</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>9</x>
+     <y>9</y>
+     <width>741</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="uniformItemSizes">
+    <bool>false</bool>
+   </property>
+   <property name="sortingEnabled">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="stadiumNameSortButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sort by Stadium Name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="teamSortButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sort by Team Name</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dateSortButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>171</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sort by Date Opened</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ALOnlyCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>250</y>
+     <width>141</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>American League Only</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="NLOnlyCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>250</y>
+     <width>141</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>National League Only</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="grassOnlyCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>290</y>
+     <width>141</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Grass Field</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="artificalFieldCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>290</y>
+     <width>141</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Artificial Turf Field</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

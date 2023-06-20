@@ -1,0 +1,25 @@
+Feature 7: Stadium and team addition report
+As an administrator, I would like to be able to add new teams and corresponding stadiums at any time
+
+accepted criteria.
+- The report should include basic information about the team to be added, such as name, team name, etc.
+- The report should include the number of teams to be added
+- The report should include the date the team was added 
+
+Definition of completion.
+Users should be able to request basic information about the team to be added by clicking a button on the GUI.
+It will be possible to request a copy of the team information. A window should then pop up showing the entered team information
+The application should remain stable and appropriately responsive as the user manipulates the view.
+Manipulate the view.
+
+Task.
+- Implement the data class
+- Implement the stadiumInfo class
+- Implement the adminFunc class
+- Implement the report view (GUI).
+
+Test.
+- Clicking on the team view button should print the corresponding team report
+  committed information and print it in the correct order.
+- Click on the Add button to bring up the corresponding box to enter the added information
+- Restrict to administrator privileges

@@ -1,0 +1,24 @@
+Feature 9: Souvenir Report
+As an administrator, I would like to be able to modify the list of souvenirs and their prices at any time.
+
+Accepted criteria.
+- The report should include basic information about the souvenir, such as name, price
+- The report should include the number of souvenirs.
+- The administrator will be able to modify the list of any souvenir and its price at the baseball field.
+ 
+
+Definition of completion.
+Administrators should be able to request a souvenir modification by clicking a button on the GUI.
+A list of souvenirs will be able to be requested. Then, formulate any souvenir and a window should pop up with the information in the souvenir that needs to be modified
+The application should remain stable and appropriately responsive when the user manipulates the view.
+Manipulate the view.
+
+Task.
+- Implementing souvenir class
+- Implement the adminFunc class
+- Implement the report view (GUI).
+
+Test.
+- Clicking the View button should print the souvenir list report
+  with the promised information and print it in the correct order.
+- Click the Modify button to modify, enter the modified information, or delete if empty. It should be restricted to administrator privileges.

@@ -1,0 +1,22 @@
+Feature: Allow baseball fans to track souvenirs purchased on their trips and show corresponding costs.
+
+As a user, I will be able to choose which souvenirs I want to buy from a selected stadium. I will also be able to choose the quantity to buy and see the total costs of all the souvenirs purchased.
+
+Acceptance Criteria:
+
+- The user will be able to select whichever stadium they would like to buy souvenirs from from the list of stadiums that they plan to visit on their trip.
+- The user will be able to select souvenirs they would like to buy from a particular stadium and see the corresponding costs.
+- The user will be able to choose the quantity of each souvenir to buy and have the total price reflect that.
+- The user will see the total number of souvenirs and the total price.
+
+Definition of Done:
+
+- If a user clicks on a stadium from the trip table, there will be a small window allowing the user to choose a souvenir to buy from a drop-down list.
+- The user will be shown the total price of a particular souvenir before they confirm to add the souvenir. The total price will be calculated by multiplying the price of the souvenir by the quantity bought.
+- Once the user chooses to add a souvenir, the souvenir will be added to the souvenir wish list table which will show all of the souvenirs bought from every stadium on the trip.
+- The user will be shown the total number of souvenirs bought and the total price below the souvenir wish list table.
+
+Tests:
+
+- Make sure the total cost values are accurate.
+- Make sure the souvenir drop-down list includes all souvenirs available to purchase from the stadium, and that the list shows the correct prices for each souvenir.

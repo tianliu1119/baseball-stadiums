@@ -1,0 +1,30 @@
+Feature: Display a list of all of the stadiums currently stored in the program.
+
+As a user, I should be able to view a list of all of the stadiums currently stored in the program. I should be able to sort the list however way I like.
+
+Acceptance Criteria:
+
+- The user will be able to view a list of all of the stadiums.
+- The user will be able to sort the list of stadiums by name in alphabetical order.
+- The user will be able to sort the list of stadiums by team name.
+- The user will be able to view only American League stadiums or National League stadiums only.
+- The user will be able to only view stadiums that have grass/artificial surfaces.
+- The user will be able to sort the list of stadiums by date opened.
+
+Definition of Done:
+
+- There will be a button named "Generate stadium list".
+- If the user clicks that button, a new window (non-modal) will pop up showing the entire list of stadiums.
+- There will be a combo box that will allow the user to choose how the list is sorted.
+- There will be radio buttons allowing the user to choose to only view stadiums that are part of the American League/National League or stadiums that have grass/artificial surfaces.
+- There will be a "close" button at the bottom.
+
+Tasks:
+
+- Implement the sorting functions.
+- Implement the GUI.
+
+Tests:
+
+- Check by inspection to see that the list is sorted properly.
+- Check that every stadium stored in the program is displayed on the table.

@@ -1,0 +1,24 @@
+Feature 8: Baseball Field Access Report
+As an administrator, I want to be able to access any baseball field and the corresponding team information at any time
+
+Accepted criteria.
+- The report should include basic information about the corresponding team at the baseball field, such as name, team name
+- The report should include the number of teams corresponding to the baseball field.
+- Administrators will be able to view basic information about all teams corresponding to the baseball field, but can also choose to specify team reports.
+ 
+
+Definition of completion.
+Users should be able to request the team names in the baseball stadium by clicking a button on the GUI.
+A copy of the team information can then be requested. A window should then pop up with all the information in the team
+The application should remain stable and appropriately responsive when the user manipulates the view.
+Manipulate the view.
+
+Task.
+- Implement stadiumInfo class
+- Implement the adminFunc class
+- Implement the report view (GUI).
+
+Test.
+- Clicking on the baseball stadium view button should print the corresponding team report
+  with the promised information and print it in the correct order.
+- Restrict to administrator privileges

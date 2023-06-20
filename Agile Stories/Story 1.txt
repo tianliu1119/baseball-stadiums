@@ -1,0 +1,30 @@
+As a user I want to be able to plan a trip to every MLB stadium.
+
+Acceptance Criteria:
+
+- The software should output a list of the stadiums that are visited in the order that they are visited.
+- Trips can be started at one of the following stadiums:
+    - Dodger Stadium, Oakland Coliseum, Petco Park, AT & T Park, Angels Stadium of Anaheim
+- Must follow the shortest path rule.
+- Software should display the total distance travelled for the trip.
+
+Tasks:
+
+- Create a graph class
+    - Vertices are stadiums
+    - Edges link one stadium to another
+    - Edge weights are distances between stadiums
+- Implement a shortest path Algorithm
+- Store data for all 30 MLB stadiums
+- Store data for all distances (435 total) between all 30 stadiums
+
+Definition of Done:
+
+The user should be able to request a full MLB stadium tour and enter one of the starting locations in California. Software should output the list of stadiums that are going to be traversed, in the order they are traversed, as well as the total distance travelled on the trip.
+
+Tests:
+
+- Clicking the button to plan a trip should prompt the user to choose a starting location.
+- Users should be able to choose one of the 5 California stadiums.
+- Each choice should print the list of all 30 stadiums traversed, in order, along with the total distance travelled for the trip.
+- All 5 trips should adhere to the shortest path rule.

@@ -1,0 +1,27 @@
+Feature: Print out distances between any two stadiums
+
+As a user, I will be able to see the total distance traveled between any two stadiums.
+
+Acceptance Criteria:
+
+- The user will be able to select a stadium of origin from a list and a destination stadium from another list.
+- The user will be shown the total distance of the shortest path traversed from the origin to the destination on the map, which is not necessarily a direct path and may pass through multiple other stadiums.
+
+Definition of Done:
+
+- The user should be able to select an origin stadium from a list that is dropped down from a combo box.
+- There will be a second combo box directly underneath the first to allow the user to select a destination stadium.
+- There will be a “Calculate Distance” push button for the user to click. Once the user clicks the button, the total distance of the shortest path will be displayed.
+- The actual shortest path between the origin and destination stadiums will also be displayed/highlighted on the map.
+
+Tasks:
+
+- Implement the GUI for this functionality.
+- Implement the function that calculates the shortest distance between two stadiums.
+- Implement the GUI function (MainWindow function) to display/highlight the shortest path from the origin to the destination on the map.
+
+Tests:
+
+- The distance and path calculated should actually be the shortest.
+
+Story Points: 3

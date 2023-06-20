@@ -1,0 +1,32 @@
+Feature: National League Baseball Stadium Tour
+
+Users have the ability to plan a trip to all National League baseball stadiums.
+
+Acceptance Criteria:
+
+- The software should output a list of the stadiums that are visited in the order that they are visited.
+- Trips can be started at one of the following stadiums:
+    - Dodger Stadium, Petco Park, AT & T Park
+- Must follow the shortest path rule.
+- Software should display the total distance travelled for the trip.
+
+Tasks:
+
+- Create a graph class
+    - Vertices are stadiums
+    - Edges link one stadium to another
+    - Edge weights are distances between stadiums
+- Implement a shortest path algorithm
+- Store data for all 15 National League stadiums
+- Acquire data for all distances (105) between all 15 N.L. stadiums
+
+Definition of Done:
+
+The user should be able to request an N.L. stadium tour and enter one of the 3 starting locations in California. Software should output the list of National League stadiums that are going to be traversed, in the order they are traversed, as well as the total distance travelled on the trip.
+
+Tests:
+
+- Clicking the button to plan a trip should prompt the user to choose a starting location.
+- Users should be able to choose one of the 3 N.L. California stadiums (Los Angeles, San Diego, San Francisco).
+- Each choice should print the list of the 15 total stadiums traversed, in order, along with the total distance travelled for the trip.
+- All 3 trips should adhere to the shortest path rule.

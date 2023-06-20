@@ -1,0 +1,26 @@
+Feature: Trip Display
+
+As a user I want to be able to show the list of stadiums in the order the user inputted it in based on the planner and shows the total distance to reach every one of these areas.
+
+Acceptance Criteria
+
+- Trip Display should include a tree or array of preset values from other functions.
+- Trip Display should include a set of locations with values of distance between these two locations
+- Trip Display should show the number of stadiums the user wanted to go to
+- Trip Display should show a list of locations from the start of the trip to the end.
+- Trip Display should be able to show the total distance for the whole trip.
+
+Definition of done:  - The user should be able to display the trip they set up with the trip setup class.
+
+Task:
+
+- Implement Trip Map Tree
+- Implement Trip Setup(1) Class
+- Implement View (GUI)
+- Implement shortest route class (2)
+
+Test:
+
+- Clicked the trip display button that will show the user the amount of stadiums, the list of stadiums in the trip from the start to end and the total distance traveled.
+
+Story Points: 3
